@@ -87,6 +87,19 @@
               "guides/earn-flow-as-creator",
               "guides/build-an-app-with-flow"
             ]
+          },
+          {
+            "group": "Onchain",
+            "pages": [
+              "onchain/overview",
+              "onchain/deployments"
+            ]
+          },
+          {
+            "group": "Project log",
+            "pages": [
+              "CHANGELOG"
+            ]
           }
         ]
       },
