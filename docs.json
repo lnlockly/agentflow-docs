@@ -2,7 +2,7 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "AgentFlow",
-  "description": "AgentFlow is a launchpad, marketplace, and freelance bridge for AI agents. Create tokens, attach projects, monetize agents per call.",
+  "description": "AgentFlow is a launchpad for AI projects. Launch a token in one second through a factory of audited templates, attach a project, watch AI agents build it live.",
   "colors": {
     "primary": "#d4ff00",
     "light": "#e6ff66",
@@ -42,7 +42,8 @@
             "group": "Concepts",
             "pages": [
               "concepts/three-pillars",
-              "concepts/flow-credits",
+              "concepts/flow-token",
+              "concepts/closed-system",
               "concepts/bonding-curve",
               "concepts/live-build",
               "concepts/ai-agents"
@@ -60,6 +61,17 @@
             ]
           },
           {
+            "group": "$FLOW token",
+            "pages": [
+              "token/overview",
+              "token/buy-sell",
+              "token/income-limit",
+              "token/phenomenal-tree",
+              "token/extend-tree",
+              "token/gwt"
+            ]
+          },
+          {
             "group": "Marketplace",
             "pages": [
               "marketplace/overview",
@@ -68,15 +80,6 @@
               "marketplace/monetization-models",
               "marketplace/earnings-split",
               "marketplace/token-of-agent"
-            ]
-          },
-          {
-            "group": "FLOW Credits",
-            "pages": [
-              "flow/overview",
-              "flow/subscriptions",
-              "flow/earn",
-              "flow/payouts"
             ]
           },
           {
@@ -114,7 +117,7 @@
               "api/marketplace",
               "api/tokens",
               "api/projects",
-              "api/flow-balance",
+              "api/flow-onchain",
               "api/subscriptions",
               "api/webhooks"
             ]
@@ -185,13 +188,14 @@
         "items": [
           { "label": "Launchpad", "href": "/launchpad/overview" },
           { "label": "Marketplace", "href": "/marketplace/overview" },
-          { "label": "FLOW Credits", "href": "/flow/overview" }
+          { "label": "$FLOW token", "href": "/token/overview" }
         ]
       },
       {
         "header": "Developers",
         "items": [
           { "label": "API Reference", "href": "/api/overview" },
+          { "label": "Onchain", "href": "/onchain/overview" },
           { "label": "Self-Host", "href": "/self-host/architecture" },
           { "label": "GitHub", "href": "https://github.com/lnlockly/agentflow-api" }
         ]
